@@ -1,10 +1,5 @@
-<!-- Assoc. of Cyber Engineers Website -->
-<!-- Currently lacking another background for the initial header. -->
-<!-- Most of the JS used is just bootstrap, which I link to below. -->
-
 <!DOCTYPE html>
 <html>
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
@@ -24,13 +19,17 @@
 		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 		crossorigin="anonymous"></script>
 
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+
 	<!-- My CSS that I have been working on -->
 	<link rel="stylesheet" href="./src/custom/main.css">
 
 	<!-- Icon that we never put :) -->
 	<link rel="shortcut icon" type="image/x-icon" href="./img/logos/favicon.png">
 
-	<title>Cybersecurity Defense club</title>
+	<title>LTSEC</title>
 </head>
 
 <body>
@@ -38,10 +37,8 @@
 	<!-- Top Navigation Bar -->
 	<div class="nav">
 		<div class="container">
-			<ul class="pull-left">
-			</ul>
 			<ul class="pull-right">
-				<li><a href="./index.html" style="color:#c0e6ff;"><u>Home</u></a></li>
+				<li><a href="./index.html" id="selected-page"><u>Home</u></a></li>
 				<li><a href="./talks.html">Talks</a></li>
 				<li><a href="./competitions.html">Competitions</a></li>
 				<li><a href="./resources.html">Resources</a></li>
@@ -52,7 +49,10 @@
 	<!--Initial Header-->
 	<div class="jumbotron">
 		<div class="container">
-			<h1 id="main-header">The Louisiana Tech Cybersecurity Defense Club</h1>
+			<!--<h1 id="main-header">The Louisiana Tech Cybersecurity Defense Club</h1>-->
+			<img class="ltsec-logo" src="/img/logos/LTSEC variant 1 darkmode.png"/>
+			<img id="header-tagline-desktop" src="img/logos/words/tagline.png"/>
+			<!--<h1 id="header-tagline-mobile">We are the cybersecurity club at Louisiana Tech University.</h1>-->
 		</div>
 	</div>
 
@@ -61,50 +61,37 @@
 		<div class="container">
 			<div class="row" style="margin-top: 10px;">
 				<div class="col-md-12">
-					<h3>Who We Are</h3>
+					<h3>Who are we?</h3>
 					<p>
-						The Louisiana Tech Cybersecurity Defense Club is an organization dedicated to the advanced
-						application of cybersecurity concepts and topics as well as participation in numerous cyber
-						security competitions nationally and domestically.
-
-						Founded in 2019, we've participated in numerous cybersecurity events, including the NCAE Cyber
-						Games, the Southwest Collegiate Cybersecurity Defense Competition (SWCCDC), Louisiana Tech's own
-						annual Cyber Storm, and many more to come!
+						LTSEC is the cybersecurity defense club at Louisiana Tech University. We're dedicated to
+						the pursuit of cybersecurity knowledge through active learning, leadership, and mentorship.
+					</p><br/>
+					<h3>What do you do?</h3>
+					<p>
+						We host and attend cybersecurity events, whether they be lectures, guest speakers, or competitions.
+						We compete in NCL, SWCCDC, and more.
 					</p>
+				</div>
+				<div class="col-md-12">
+					<img id="join-us" src="/img/logos/words/joinus.png"/><br/>
+					<div class="col text-center">
+						<a href="/discord" target="_blank" rel="noopener"><button class="footerButton"><p id="footerButtonText"><i class="bi bi-discord"></i> Discord</p></button></a>
+						<a href="/mailing-list" target="_blank" rel="noopener"><button class="footerButton"><p id="footerButtonText"><i class="bi bi-envelope-plus-fill"></i> Mail List</p></button></a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<!-- <div class="parallax_1"></div> -->
-
 	<div class='information-panel'>
 		<div class='footerText'>
 			<div class="container">
+				<div class="col-md-12">
+					<!--<img id="footerLogo" src="/img/logos/LTSEC variant 1 dark icon.png" onmouseover="this.src='/img/logos/LTSEC variant 2 icon.png'" onmouseout="this.src='/img/logos/LTSEC variant 1 dark icon.png'"/>-->
+					<img id="footerLogo" src="/img/logos/LTSEC variant 1 dark icon.png"/>
+				</div>
 				<div class="footerContainer">
-
-					<!-- Thumbnails -->
-					<div class="centered">
-						<div class="row">
-							<a href="https://discord.com/invite/RAyhGjeQnc" target="_blank" rel="noopener noreferrer">
-								<!-- Discord-->
-								<!--<i class="fa fa-discord fa-2x" aria-hidden="true">Discord</i>-->
-							</a>
-
-							<a href="https://twitter.com/@ACE_LaTech" target="_blank" rel="noopener noreferrer">
-								<!-- Twitter -->
-								<!--<i class="fa fa-twitter fa-2x" aria-hidden="true">Twitter</i>-->
-							</a>
-
-							<a href="https://github.com/acecoes" target="_blank" rel="noopener noreferrer">
-								<!-- GitHub -->
-								<!--i class="fa fa-github fa-2x" aria-hidden="true">GitHub</i>-->
-							</a>
-						</div>
-					</div>
-
-
-					<p>The Cybersecurity Defense Club -- <a href="https://www.latech.edu">Louisiana Tech University</a> -- 2022</p>
+					<p>LTSEC @ <a href="https://www.latech.edu">Louisiana Tech University</a> — 2022</p>
 				</div>
 			</div>
 		</div>
