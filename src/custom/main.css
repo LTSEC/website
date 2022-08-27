@@ -103,7 +103,7 @@
   but is totally subject to change*/
 .parallax {
     /* The image used */
-    background-image: url('../../img/cyberstorm/5.png');
+    background-image: url('../../img/cyberstorm/5.jpg');
 
     /* Set a specific height */
     min-height: 100px; 
@@ -117,7 +117,7 @@
 
 .parallax_1 {
     /* The image used */
-    background-image: url('../../img/cyberstorm/5.png');
+    background-image: url('../../img/cyberstorm/5.jpg');
 
     /* Set a specific height */
     min-height: 3px; 
@@ -131,7 +131,7 @@
 
 .parallax-2 {
     /* The image used */
-    background-image: url('../../img/cyberstorm/2.png');
+    background-image: url('../../img/cyberstorm/2.jpg');
 
     /* Set a specific height */
     min-height: 300px; 
@@ -144,7 +144,7 @@
 }
 .parallax-3 {
     /* The image used */
-    background-image: url('../../img/cyberstorm/6.png');
+    background-image: url('../../img/cyberstorm/6.jpg');
 
     /* Set a specific height */
     min-height: 300px; 
@@ -158,7 +158,7 @@
 
 .parallax-4 {
     /* The image used */
-    background-image: url('../../img/more cyberstorm/Pine.png');
+    background-image: url('../../img/more cyberstorm/Pine.jpg');
 
     /* Set a specific height */
     min-height: 300px; 
