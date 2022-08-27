@@ -227,7 +227,7 @@
 
 @media (max-width: 992px) {
   .nav a {
-    font-size: calc(13px + .25vw);
+    font-size: calc(11px + .25vw);
   }
 }
 
