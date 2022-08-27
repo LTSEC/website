@@ -369,6 +369,9 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
+  #join-us-container {
+    padding-right: 4%;
+  }
 }
 
 /*Minor stylings for the thumbnails so they don't take up the whole screen, 
