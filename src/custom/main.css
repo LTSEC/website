@@ -7,10 +7,9 @@
 
 /*Edited jumbotron image and set the bottom margin to 2px*/
 .jumbotron {
-/*  background-image:url('../../img/background.jpg'); */
-  background-color: black;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: repeat;
+  background-size: auto;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
@@ -261,12 +260,21 @@
 
 /*------------------------GENERAL ELEMENT STYLING-------------------*/
 
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 p {
   overflow-wrap: break-word;
 }
 
 body {
-  background-color: #000000;
+  /* background-color: #000000; */
+  background-image:url('../../img/gamerwallpaper.jpg');
+  background-repeat: repeat;
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
@@ -339,7 +347,7 @@ body {
 }
 
 #join-us {
-  max-width: 40%;
+  max-width: 45%;
   display: block;
   margin-top: 5%;
   margin-left: auto;
@@ -397,7 +405,7 @@ h1 {
 }
 
 .footerText {
-  /* border-top: 1px solid #000000; */
+  background-image: linear-gradient(rgba(255,0,0,0), rgb(0, 0, 0));
 }
 
 .footerText p {
