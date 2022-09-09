@@ -57,7 +57,7 @@
 
 .ltsec-logo {
   object-fit: contain;
-  max-width: 70%;
+  max-width: 65%;
   width: auto;
   margin-left: auto;
   margin-right: auto;
@@ -177,7 +177,7 @@
 /*--------------------------- navbar styling ----------------------*/
 .nav {
   position: fixed;
-  background-color: #00000050;
+  background-color: #00000060;
   /*border-bottom: 1px solid #1b212c;*/
   width: 100%;
   height: calc(35px + .4vw);
