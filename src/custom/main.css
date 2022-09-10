@@ -222,11 +222,11 @@
 }
 
 #ctf-button {
-  background-color: rgba(100,20,23,100);
+  background-color: rgba(125,20,23,75);
 }
 
 #ctf-button:hover {
-  background-color: rgba(125,20,23,75);
+  background-color: rgba(100,20,23,100);
 }
 
 .active {
