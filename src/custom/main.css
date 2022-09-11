@@ -490,6 +490,10 @@ h1 {
   text-align: center;
 }
 
+.pull-right {
+  padding-left: 0px !important;
+}
+
 @media (max-width: 600px) {
   .footerButton {
     width: 100%;
