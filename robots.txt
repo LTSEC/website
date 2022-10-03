@@ -1,2 +1,6 @@
 User-agent: *
 Disallow: /
+
+User-agent: LTSECTF-player
+Disallow: /
+Allow: LTSEC{A_R34L_HUM4N_B31NG}
