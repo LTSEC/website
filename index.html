@@ -1,99 +1,66 @@
 <!DOCTYPE html>
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:title" content="LTSEC at Louisiana Tech University">
-<meta property="og:site_name" content="LTSEC">
-<meta property="og:description" content="The Cybersecurity Defense Club at Louisiana Tech University. We do some pretty cool stuff.">
-<meta property="og:image" content="./img/logos/LTSEC-embed.png">	
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="250">
-<meta property="og:image:height" content="250">	
-<meta name="theme-color" content="#000000">
-<link rel="icon" type="image/png" href="./img/logos/LTSEC-web-icon.png">
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta property="og:title" content="LTSEC at Louisiana Tech University">
+        <meta property="og:site_name" content="LTSEC">
+        <meta property="og:description" content="The Cybersecurity Defense Club at Louisiana Tech University. We do some pretty cool stuff.">
+        <meta property="og:image" content="./img/logos/LTSEC-embed.png">	
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="250">
+        <meta property="og:image:height" content="250">	
+        <meta name="theme-color" content="#000000">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-	<link rel="stylesheet" href="./src/custom/main.css">
-	<link rel="shortcut icon" type="image/x-icon" href="./img/logos/favicon.png">
-	<title>LTSEC</title>
-</head>
+        <link rel="icon" type="image/png" href="./img/logos/LTSEC-web-icon.png">
+        <link rel="stylesheet" href="css/global.css">
+    </head>
 
-<body>
+    <body>
+        <main class="container">
+            <div style="display: contents">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="/">
+                                <img class="ltsec-logo-desktop" src="/img/logos/LTSEC-variant-1-darkmode.png" alt="LTSEC!" />
+                                <img class="ltsec-logo-mobile" src="/img/logos/LTSEC-variant-1-dark-icon.png" alt="LTSEC!" />
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><a href="/about.html" role="button" class="warning">About</a></li>
+                        <li><a href="/competitions.html" role="button" class="warning">Competitions</a></li>
+                        <li><a href="/resources.html" role="button" class="warning">Resources</a></li>
+                    </ul>
+                </nav>
+                <article>
+                    <img id="tagline" src="img/logos/words/tagline.png"/>
 
-	<!-- Top Navigation Bar -->
-	<div class="nav">
-		<div class="container">
-			<ul class="pull-right">
-				<li><a href="./index.html" id="selected-page"><u>Home</u></a></li>
-				<li><a href="./about.html">About</a></li>
-				<li><a href="//ctf.ltsec.club" id="ctf-button">LTSECTF</a></li>
-				<li><a href="./resources.html">Resources</a></li>
-			</ul>
-		</div>
-	</div>
+                    <img id="cyberstorm-photo" src="img/cyberstorm2022.jpg">
 
-	<!--Initial Header-->
-	<div class="jumbotron">
-		<div class="container">
-			<!--<h1 id="main-header">The Louisiana Tech Cybersecurity Defense Club</h1>-->
-			<img class="ltsec-logo" src="./img/logos/LTSEC-variant-1-darkmode.png"/>
-			<img id="header-tagline-desktop" src="./img/logos/words/tagline.png"/>
-			<!--<h1 id="header-tagline-mobile">We are the cybersecurity club at Louisiana Tech University.</h1>-->
-		</div>
-	</div>
+                    <hgroup>
+                        <h1>Who are we?</h1>
+                        <h2>LTSEC is the cybersecurity club at Louisiana Tech University. We're dedicated to the pursuit of cybersecurity knowledge through active learning, leadership, and mentorship. </h2>
+                    </hgroup>
 
-	<!--Main Informational Content-->
-	<div class="learn-more">
-		<div class="container">
-			<div class="row" style="margin-top: 10px;">
-				<div class="col-md-12">
-					<h3>Who are we?</h3>
-					<p>
-						LTSEC is the cybersecurity defense club at Louisiana Tech University. We're dedicated to
-						the pursuit of cybersecurity knowledge through active learning, leadership, and mentorship.
-					</p><br/>
-					<h3>What do we do?</h3>
-					<p>
-						We host and attend cybersecurity events, whether they be lectures, guest speakers, or competitions.
-						We compete in NCL, SWCCDC, and more.
-					</p><br/>
-					<h3>When do you meet?</h3>
-					<p>
-						We plan to meet Tuesday, with a cybersecurity lab every other week. Information will be released through
-						email as we move further into the academic year.
-					</p><br/>
-					<h3>Who can join?</h3>
-					<p>
-						Any willing student of <b>any major</b> is welcome to join LTSEC as a member, whether to compete, learn,
-						or just to see what cyber is all about.
-					</p>
-				</div>
-				<div class="col-md-12">
-					<img id="join-us" src="./img/logos/words/joinus.png"/><br/>
-					<div class="col text-center" id="join-us-container">
-						<a href="https:////discord.gg/mcUhTnJp97" target="_blank" rel="noopener"><button class="footerButton"><p id="footerButtonText"><i class="bi bi-discord"></i> Discord</p></button></a><!--
-						<a href="./maillist" target="_blank" rel="noopener"><button class="footerButton"><p id="footerButtonText"><i class="bi bi-envelope-plus-fill"></i> Mail List</p></button></a>-->
-						<a href="https:////calendar.google.com/calendar/u/0?cid=Y181NWxkbXBjcWhyN2NsdDNhMmVxNjBxZ2Zra0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t" target="_blank" rel="noopener"><button class="footerButton"><p id="footerButtonText"><i class="bi bi-calendar-week-fill"></i> Calendar</p></button></a>
-						<a href="mailto:latech.csdc@gmail.com" target="_blank" rel="noopener"><button class="footerButton"><p id="footerButtonText"><i class="bi bi-envelope-fill"></i> Contact Us</p></button></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+                    <hgroup>
+                        <h1>What do we do?</h1>
+                        <h2>We host and attend cybersecurity events, whether they be lectures, guest speakers, or competitions. We compete in NCL, SWCCDC, and <a href="/competitions.html" style="text-decoration: underline;">more</a>.</h2>
+                    </hgroup>
 
-	<div class='information-panel'>
-		<footer class='footerText'>
-			<div class="container">
-				<div class="col-md-12">
-					<!--<img id="footerLogo" src="/img/logos/LTSEC variant 1 dark icon.png" onmouseover="this.src='/img/logos/LTSEC variant 2 icon.png'" onmouseout="this.src='/img/logos/LTSEC variant 1 dark icon.png'"/>-->
-					<img id="footerLogo" src="./img/logos/LTSEC-variant-1-dark-icon.png"/>
-				</div>
-				<div class="footerContainer">
-					<p><a href="https://www.ltsec.club">LTSEC</a> @ <a href="https://www.latech.edu">Louisiana Tech University</a> - 2022</p>
-				</div>
-			</div>
-		</footer>
-	</div>
+                    <hgroup>
+                        <h1>Who can join?</h1>
+                        <h2>Any willing student of <b>any major</b> and <b>any year</b> is welcome to join LTSEC as a member, whether to compete, learn, or just to see what cyber is all about.</h2>
+                    </hgroup>
 
-</body>
-
+                </article>
+            </div>
+            <div class="grid" style="padding-top: 2%">
+                <span style="text-align: center; font-family: 'Lato Black', sans-serif; float: left;">
+                    ©  2023 <a href="/index.html">LTSEC</a>, a student organization of <a href="https://www.latech.edu">Louisiana Tech University</a>
+            </div>
+        </main>
+    </body>
 </html>

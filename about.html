@@ -1,133 +1,214 @@
-<!-- Assoc. of Cyber Engineers Website -->
-<!-- Currently lacking another background for the initial header. -->
-<!-- Most of the JS used is just bootstrap, which I link to below. -->
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta property="og:title" content="LTSEC at Louisiana Tech University">
+        <meta property="og:site_name" content="LTSEC">
+        <meta property="og:description" content="The Cybersecurity Defense Club at Louisiana Tech University. We do some pretty cool stuff.">
+        <meta property="og:image" content="./img/logos/LTSEC-embed.png">	
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="250">
+        <meta property="og:image:height" content="250">	
+        <meta name="theme-color" content="#000000">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:title" content="LTSEC at Louisiana Tech University">
-<meta property="og:site_name" content="LTSEC">
-<meta property="og:description" content="The Cybersecurity Defense Club at Louisiana Tech University. We do some pretty cool stuff.">
-<meta property="og:image" content="./img/logos/LTSEC-embed.png">	
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="250">
-<meta property="og:image:height" content="250">	
-<meta name="theme-color" content="#000000">
-<link rel="icon" type="image/png" href="./img/logos/LTSEC-web-icon.png">
+        <link rel="icon" type="image/png" href="./img/logos/LTSEC-web-icon.png">
+        <link rel="stylesheet" href="css/global.css">
+    </head>
 
-<head>
-	<link rel="stylesheet" href="./src/custom/main.css">
-	<link rel="shortcut icon" type="image/x-icon" href="./img/logos/favicon.png">
-	<title>Cybersecurity Defense Club</title>
-</head>
+    <body>
+        <main class="container">
+            <div style="display: contents">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="/">
+                                <img class="ltsec-logo-desktop" src="/img/logos/LTSEC-variant-1-darkmode.png" alt="LTSEC!" />
+                                <img class="ltsec-logo-mobile" src="/img/logos/LTSEC-variant-1-dark-icon.png" alt="LTSEC!" />
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><a href="/about.html" role="button" class="warning">About</a></li>
+                        <li><a href="/competitions.html" role="button" class="warning">Competitions</a></li>
+                        <li><a href="/resources.html" role="button" class="warning">Resources</a></li>
+                    </ul>
+                </nav>
+                <article>
+                    <hgroup>
+                        <h1>About LTSEC</h1>
+                        <h2>
+                            <b>LTSEC</b> is the cybersecurity club at Louisiana Tech University. We're dedicated to the pursuit of cybersecurity knowledge through active learning, leadership, and mentorship.<br/><br/>
+                            Originally founded as the <b>Cyber Security Defense Club (CSDC)</b> in 2020 with the support of Mr. Michele Maasberg and Dr. Benjamin Drozdenko, LTSEC has grown to become the leading
+                            cybersecurity club at Louisiana Tech, competing in multiple competitions including the National Cyber Security, the Collegiate Cyber Defense Competition, and more.
+                        </h2>
+                    </hgroup>
 
-<body>
+                    <h1 style="text-align: center; margin-bottom: 2%; font-size: 3rem">LTSEC Officers</h1>
 
-	<!-- Top Navigation Bar -->
-	<div class="nav">
-		<div class="container">
-			<ul class="pull-right">
-				<li><a href="./index.html">Home</a></li>
-				<li><a href="./about.html" id="selected-page">About</a></li>
-				<li><a href="//ctf.ltsec.club" id="ctf-button">LTSECTF</a></li>
-				<li><a href="./resources.html">Resources</a></li>
-			</ul>
-		</div>
-	</div>
+                    <details open>
+                        <summary role="button" class="contrast">LTSEC Officers 2023-24</summary>
+                        <a role="button" href="https://coes.latech.edu/facultystaff-directory/single-entry/name/brad-gilsson/" class="cursed-fake-button">
+                            <b>Faculty Advisor</b>: Dr. Brad Glisson
+                        </a>
+                        <div class="grid">
+                            <div class="scenario-box" style="text-align: center; margin-bottom: 4%;">
+                                <hgroup style="margin-bottom: 4%">
+                                    <h1>President</h1>
+                                    <h2>Vito Mumphrey</h2>
+                                </hgroup>
+                                <p>Vito Mumphrey is a junior Cyber Engineer. Ab accusamus doloremque autem porro. Dolorem voluptatem a praesentium voluptate hic rerum reiciendis. Ea sint et omnis aut ut deserunt quos.</p>
+                            </div>
+                            <div class="scenario-box" style="text-align: center; margin-bottom: 4%;">
+                                <hgroup style="margin-bottom: 4%">
+                                    <h1>Vice President</h1>
+                                    <h2>Mason Sanchez</h2>
+                                </hgroup>
+                                <p>Vito Mumphrey is a junior Cyber Engineer. Ab accusamus doloremque autem porro. Dolorem voluptatem a praesentium voluptate hic rerum reiciendis. Ea sint et omnis aut ut deserunt quos.</p>
+                            </div>
+                        </div>
+                        <div class="grid">
+                            <div class="scenario-box" style="text-align: center; margin-bottom: 4%;">
+                                <hgroup style="margin-bottom: 4%">
+                                    <h1>Treasurer</h1>
+                                    <h2>Noah Jones</h2>
+                                </hgroup>
+                                <p>Noah Jones is a senior Computer Scientist. Ab accusamus doloremque autem porro. Dolorem voluptatem a praesentium voluptate hic rerum reiciendis. Ea sint et omnis aut ut deserunt quos.</p>
+                            </div>
+                            <div class="scenario-box" style="text-align: center; margin-bottom: 4%;">
+                                <hgroup style="margin-bottom: 4%">
+                                    <h1>Head Engineer</h1>
+                                    <h2>Samuel Johnston</h2>
+                                </hgroup>
+                                <p>Samuel Johnston is a sophomore Computer Scientist. Ab accusamus doloremque autem porro. Dolorem voluptatem a praesentium voluptate hic rerum reiciendis. Ea sint et omnis aut ut deserunt quos.</p>
+                            </div>
+                        </div>
+                        <div class="grid">
+                            <div class="scenario-box" style="text-align: center; margin-bottom: 4%;">
+                                <hgroup style="margin-bottom: 4%">
+                                    <h1>Technical Writer</h1>
+                                    <h2>Jacob Roberts</h2>
+                                </hgroup>
+                                <p>Jacob Roberts is a junior Computer Scientist. Ab accusamus doloremque autem porro. Dolorem voluptatem a praesentium voluptate hic rerum reiciendis. Ea sint et omnis aut ut deserunt quos.</p>
+                            </div>
+                            <div class="scenario-box" style="text-align: center; margin-bottom: 4%;">
+                                <hgroup style="margin-bottom: 4%">
+                                    <h1>Outreach</h1>
+                                    <h2>Connor Heard</h2>
+                                </hgroup>
+                                <p>Connor Heard is a sophomore Cyber Engineer. Ab accusamus doloremque autem porro. Dolorem voluptatem a praesentium voluptate hic rerum reiciendis. Ea sint et omnis aut ut deserunt quos.</p>
+                            </div>
+                        </div>
+                    </details>
 
-	<!--Initial Header-->
-	<div class="parallax-2"></div>
+                    <details>
+                        <summary role="button" class="warning">LTSEC Officers 2022-23</summary>
+                        <a role="button" href="https://coes.latech.edu/facultystaff-directory/single-entry/name/brad-gilsson/" class="cursed-fake-button">
+                            <b>Faculty Advisor</b>: Dr. Brad Glisson
+                        </a>
+                        <div class="grid">
+                            <div class="scenario-box" style="text-align: center; margin-bottom: 4%;">
+                                <hgroup style="margin-bottom: 4%">
+                                    <h1>President</h1>
+                                    <h2>Kevin Oubre</h2>
+                                </hgroup>
+                            </div>
+                            <div class="scenario-box" style="text-align: center; margin-bottom: 4%;">
+                                <hgroup style="margin-bottom: 4%">
+                                    <h1>Vice President</h1>
+                                    <h2>Josh Iselin</h2>
+                                </hgroup>
+                            </div>
+                            <div class="scenario-box" style="text-align: center; margin-bottom: 4%;">
+                                <hgroup style="margin-bottom: 4%">
+                                    <h1>Treasurer</h1>
+                                    <h2>Timothy Huhn</h2>
+                                </hgroup>
+                            </div>
+                        </div>
+                        <div class="grid">
+                            <div class="scenario-box" style="text-align: center; margin-bottom: 4%;">
+                                <hgroup style="margin-bottom: 4%">
+                                    <h1>Head Engineer</h1>
+                                    <h2>Samuel Johnston</h2>
+                                </hgroup>
+                            </div>
+                            <div class="scenario-box" style="text-align: center; margin-bottom: 4%;">
+                                <hgroup style="margin-bottom: 4%">
+                                    <h1>Technical Writer</h1>
+                                    <h2>Mason Sanchez</h2>
+                                </hgroup>
+                            </div>
+                            <div class="scenario-box" style="text-align: center; margin-bottom: 4%;">
+                                <hgroup style="margin-bottom: 4%">
+                                    <h1>Outreach</h1>
+                                    <h2>Vito Mumphrey</h2>
+                                </hgroup>
+                            </div>
+                        </div>
+                    </details>
 
-	<!--Main Informational Content-->
-	<div class="learn-more">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-				<h3>Cybersecurity Competitions</h3>
-				<p>
-					The Louisiana Tech Cybersecurity Defense Club participates in a number of national cyber
-					competitions as a part of our program.
-				</p>
-				</div>
-			</div>
-			<hr/>
-			<div class="row">
-				<div class="col-md-4">
-					<a href="https://coes.latech.edu/cyber-storm-attack-defend-adapt/"><img class="comp-logo" id="ncae-logo" src="./img/logos/competitions/cyberstorm.jpg" loading="lazy"></a>
-				</div>
-				<div class="col-md-8">
-					<h3>Cyber Storm</h3>
-					<p>
-						Cyber Storm is Louisiana Tech's annual cybersecurity project-based class, available to
-						Computer Science and Cyber Engineering students annually. Cyber Storm participants learn to
-						utilize and interact with various parts of the cybersecurity realm, including introductions
-						to transfer protocols, cryptography, and reverse engineering.
-					</p>
-				</div>
-			</div>
-			<hr/>
-			<div class="row">
-				<div class="col-md-4">
-					<a href="https://www.ncaecybergames.org/"><img class="comp-logo" id="ncae-logo" src="./img/logos/competitions/NCAE Cyber Games.png" loading="lazy"></a>
-				</div>
-				<div class="col-md-8">
-					<h3>NCAE Cyber Games</h3>
-					<p>
-						The NCAE Cyber Games is an entry-level cybersecurity available exclusively to National Centers
-						of Academic Excellence in Cybersecurity, including Louisiana Tech University. This competition
-						is available only to students who have never participated in a collegiate cybersecurity event 
-						before, providing a welcoming and accessible introduction to cybersecurity for students of all
-						ages, including mentoring from upperclassmen and tenured cybersecurity staff members.
-					</p>
-				</div>
-			</div>
-			<hr/>
-			<div class="row">
-				<div class="col-md-4">
-					<a href="https://nationalcyberleague.org/"><img class="comp-logo" style="max-width: 50%; margin: auto; display: block;" src="./img/logos/competitions/NCL.png" loading="lazy"></a>
-				</div>
-				<div class="col-md-8">
-					<h3>National Cyber League (NCL)</h3>
-					<p>
-						The National Cyber League (NCL) is a quarterly collegiate cybersecurity competition, hosted
-						online featuring a large variety of cybersecurity-based puzzles, including reverse engineering,
-						open-source intelligence (OSINT), log analysis, and network analysis.
-					</p>
-				</div>
-			</div>
-			<hr/>
-			<div class="row">
-				<div class="col-md-4">
-					<a href="https://southwestccdc.com"><img class="comp-logo" style="max-width: 70%; margin: auto; display: block;" src="./img/logos/competitions/swccdc22.png" loading="lazy"></a>
-				</div>
-				<div class="col-md-8">
-					<h3>Southwest Collegiate Cybersecurity Defense Competition (SWCCDC)</h3>
-					<p>
-						The Southwest Collegiate Cybersecurity Defense Competition (SWCCDC) is an annual cybersecurity
-						collegiate competition, which is a part of the National CCDC circuit. The winning team of SWCCDC
-						goes on to compete at National CCDC, one of the most prestigous cybersecurity competitions in the
-						country.
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
+                    <details>
+                        <summary role="button" class="warning">LA Tech CSDC Officers 2021-22</summary>
+                        <a role="button" href="https://coes.latech.edu/facultystaff-directory/single-entry/name/miguel-gates/" class="cursed-fake-button">
+                            <b>Faculty Advisor</b>: Dr. Miguel Gates
+                        </a>
+                        <div class="grid">
+                            <div class="scenario-box" style="text-align: center; margin-bottom: 4%;">
+                                <hgroup style="margin-bottom: 4%">
+                                    <h1>President</h1>
+                                    <h2>Kevin Oubre</h2>
+                                </hgroup>
+                            </div>
+                            <div class="scenario-box" style="text-align: center; margin-bottom: 4%;">
+                                <hgroup style="margin-bottom: 4%">
+                                    <h1>Vice President</h1>
+                                    <h2>Joseph Siharath</h2>
+                                </hgroup>
+                            </div>
+                            <div class="scenario-box" style="text-align: center; margin-bottom: 4%;">
+                                <hgroup style="margin-bottom: 4%">
+                                    <h1>Treasurer</h1>
+                                    <h2>Stuart Redfearn</h2>
+                                </hgroup>
+                            </div>
+                        </div>
+                    </details>
 
-	<div class='information-panel'>
-		<div class='footerText'>
-			<div class="container">
-				<div class="col-md-12">
-					<!--<img id="footerLogo" src="/img/logos/LTSEC variant 1 dark icon.png" onmouseover="this.src='/img/logos/LTSEC variant 2 icon.png'" onmouseout="this.src='/img/logos/LTSEC variant 1 dark icon.png'"/>-->
-					<img id="footerLogo" src="./img/logos/LTSEC-variant-1-dark-icon.png"/>
-				</div>
-				<div class="footerContainer">
-					<p><a href="https://www.ltsec.club">LTSEC</a> @ <a href="https://www.latech.edu">Louisiana Tech University</a> - 2022</p>
-				</div>
-			</div>
-		</div>
-	</div>
+                    <details>
+                        <summary role="button" class="warning">LA Tech CSDC Officers 2020-21</summary>
+                        <a role="button" href="https://www.latech.edu/2018/12/19/dr-michele-maasberg/" class="cursed-fake-button">
+                            <b>Faculty Advisor</b>: Dr. Michele Maasberg
+                        </a>
+                        <div class="grid">
+                            <div class="scenario-box" style="text-align: center; margin-bottom: 4%;">
+                                <hgroup style="margin-bottom: 4%">
+                                    <h1>President</h1>
+                                    <h2>Ryan Utley</h2>
+                                </hgroup>
+                            </div>
+                            <div class="scenario-box" style="text-align: center; margin-bottom: 4%;">
+                                <hgroup style="margin-bottom: 4%">
+                                    <h1>Vice President</h1>
+                                    <h2>Nathan Hegab</h2>
+                                </hgroup>
+                            </div>
+                            <div class="scenario-box" style="text-align: center; margin-bottom: 4%;">
+                                <hgroup style="margin-bottom: 4%">
+                                    <h1>Treasurer</h1>
+                                    <h2>Josh Romero</h2>
+                                </hgroup>
+                            </div>
+                        </div>
+                    </details>
 
-</body>
-
+                </article>
+            </div>
+            <div class="grid" style="padding-top: 2%">
+                <span style="text-align: center; font-family: 'Lato Black', sans-serif; float: left;">
+                    ©  2023 <a href="/index.html">LTSEC</a>, a student organization of <a href="https://www.latech.edu">Louisiana Tech University</a>
+            </div>
+        </main>
+    </body>
 </html>
